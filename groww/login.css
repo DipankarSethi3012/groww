@@ -1,0 +1,115 @@
+.btn {
+    padding: 0.5rem;
+    width: 7rem;
+    background-color: #00b386;
+    ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    /* transform: translate(-50%,-50%); */
+}
+
+.btn:hover {
+    background-color: #66e3c4;
+    cursor: pointer;
+}
+
+.popup {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(-50%, -50%); */
+    background-color: #04c595;
+    /* background-color: white; */
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    /* Use flexbox to align content */
+    max-width: 50vw;
+    /* Set maximum width for the popup */
+    font-family: cursive;
+    /* height:20rem; */
+
+
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 20px;
+    /* Add some space between left and right content */
+    /* background-color: rgba(89, 159, 89, 0.667); */
+    width: 50vw;
+    color: white;
+    margin: 2rem;
+    background-color: #04c595;
+
+}
+
+.right-content {
+    flex: 1;
+    /* Use 1/2 of the space */
+    background-color: white;
+    padding: 1rem;
+}
+
+.popup-form {
+    text-align: center;
+}
+
+.popup-form button {
+    margin-top: 10px;
+    /* Add some space between buttons */
+}
+
+.close {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.right-content button {
+    /* border: none; */
+    background: transparent;
+    padding: 1rem;
+
+    width: 15rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.right-content button:hover {
+    border: 1px solid black;
+}
+
+.right-content input[type="email"] {
+    width: 15rem;
+    border: none;
+    border-bottom:1px solid black ;
+    /* padding: 1.9rem; */
+}
+.right-content input[type="email"]:hover{
+    border: none;
+    border-bottom: 1px solid #04c595 ;
+}
+.right-content input[type="email"]::before{
+    border: none;
+
+}
+.right-content input[type="email"]::after{
+    border: none;
+}
+.google-img{
+    width: 1.6rem;
+    margin-right: .3rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+}
